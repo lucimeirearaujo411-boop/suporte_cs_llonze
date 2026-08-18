@@ -1,116 +1,136 @@
-# Case de Suporte e Customer Success
+# Case de Suporte — Falha de Acesso a Sistema Web
 
-## Sobre este projeto
+## 1. Contexto
 
-Este repositório apresenta um caso prático simulado de atendimento e suporte técnico, estruturado para demonstrar minha capacidade de analisar solicitações, investigar problemas, organizar informações e documentar soluções.
+Este case simula uma situação de suporte envolvendo um usuário que não consegue acessar uma aplicação web utilizada em sua rotina profissional.
 
-A proposta é representar uma situação comum em ambientes de suporte e Customer Success, utilizando uma abordagem orientada à experiência do usuário e à resolução de problemas.
+O objetivo é demonstrar uma abordagem estruturada para atendimento, diagnóstico e resolução de incidentes.
 
-## Cenário
+## 2. Problema relatado
 
-Um usuário informa que não consegue acessar uma aplicação web utilizada para realizar suas atividades.
+O usuário informa que não consegue realizar o login no sistema.
 
-Ao tentar acessar o sistema, recebe uma mensagem de erro e não consegue concluir o login.
+### Relato
 
-### Relato inicial do usuário
+"Não estou conseguindo acessar o sistema. Já tentei novamente, mas continua apresentando erro."
 
-> "Estou tentando acessar o sistema, mas não consigo entrar. Já tentei novamente e continua apresentando erro."
+## 3. Impacto
 
-## Objetivo do atendimento
+O usuário está impossibilitado de utilizar a aplicação e, consequentemente, pode ter sua atividade prejudicada.
 
-- Entender o problema relatado pelo usuário;
-- Identificar possíveis causas;
-- Realizar uma investigação inicial;
-- Orientar o usuário de forma clara;
-- Registrar o atendimento;
-- Validar se o problema foi solucionado.
+Por esse motivo, o atendimento deve priorizar:
 
-## Etapas do atendimento
-
-### 1. Entendimento do problema
-
-Primeiramente, foram levantadas informações para compreender melhor a situação:
-
-- Qual sistema está apresentando o problema?
-- Qual mensagem de erro aparece?
-- O problema acontece apenas com esse usuário?
-- O acesso funcionava anteriormente?
-- O problema acontece em outro navegador ou dispositivo?
-- Outros usuários estão enfrentando a mesma situação?
-
-### 2. Investigação
-
-A partir das informações coletadas, foram consideradas algumas possibilidades:
-
-- Credenciais incorretas ou expiradas;
-- Problema relacionado ao navegador;
-- Instabilidade da aplicação;
-- Falha de conexão;
-- Bloqueio ou indisponibilidade da conta;
-- Problema geral afetando outros usuários.
-
-### 3. Testes realizados
-
-Foram considerados os seguintes procedimentos:
-
-1. Confirmar os dados utilizados para acesso;
-2. Solicitar uma nova tentativa de login;
-3. Testar o acesso em outro navegador;
-4. Verificar conexão com a internet;
-5. Limpar cache e cookies;
-6. Verificar se outros usuários conseguem acessar o sistema;
-7. Caso necessário, encaminhar o incidente para o responsável técnico.
-
-### 4. Comunicação com o usuário
-
-Durante o atendimento, a comunicação deve ser objetiva e clara, evitando termos excessivamente técnicos.
-
-O usuário deve ser informado sobre:
-
-- O que está sendo investigado;
-- Quais testes serão realizados;
-- Se existe alguma ação que ele precisa executar;
-- Qual será o próximo passo caso o problema não seja resolvido.
-
-### 5. Resolução
-
-Após a identificação da causa, a solução deve ser registrada no atendimento, juntamente com as orientações fornecidas ao usuário.
-
-Também é importante confirmar com o usuário se o acesso foi restabelecido antes de finalizar o atendimento.
-
-## Registro do atendimento
-
-| Item | Informação |
-|---|---|
-| Tipo | Suporte técnico |
-| Categoria | Acesso ao sistema |
-| Prioridade | Média |
-| Canal | Atendimento ao usuário |
-| Status | Resolvido |
-| Ação | Investigação e orientação |
-| Resultado | Acesso restabelecido |
-
-## Boas práticas utilizadas
-
-- Escuta ativa;
+- Identificação rápida do problema;
 - Comunicação clara;
-- Investigação estruturada;
-- Registro das informações;
-- Acompanhamento do usuário;
-- Validação da solução;
-- Foco na experiência do cliente.
+- Investigação objetiva;
+- Redução do impacto para o usuário.
 
-## Aprendizado
+## 4. Investigação
 
-Um atendimento de suporte eficiente não consiste apenas em solucionar um problema técnico.
+A investigação começa pela coleta de informações.
 
-É necessário compreender o impacto da situação para o usuário, conduzir a investigação de forma organizada, comunicar cada etapa e garantir que a solução realmente resolveu a necessidade apresentada.
+### Perguntas iniciais
 
-## Observação
+- Qual mensagem de erro aparece?
+- Quando o problema começou?
+- O acesso funcionava anteriormente?
+- O problema ocorre em outro navegador?
+- Outros usuários conseguem acessar?
+- Houve alguma alteração recente no ambiente?
 
-Este é um case prático simulado, desenvolvido para demonstrar minha abordagem de atendimento, suporte, investigação e documentação de problemas.
+## 5. Hipóteses
+
+As principais hipóteses consideradas são:
+
+1. Credenciais inválidas;
+2. Conta bloqueada;
+3. Problema no navegador;
+4. Falha de conexão;
+5. Instabilidade da aplicação;
+6. Indisponibilidade geral do sistema.
+
+## 6. Troubleshooting
+
+### Etapa 1 — Validar o erro
+
+Solicitar ao usuário a mensagem apresentada pelo sistema.
+
+### Etapa 2 — Reproduzir o problema
+
+Orientar uma nova tentativa de acesso para verificar se o comportamento permanece.
+
+### Etapa 3 — Isolar a causa
+
+Testar:
+
+- Outro navegador;
+- Outro dispositivo, quando disponível;
+- Conexão de internet;
+- Acesso de outro usuário.
+
+### Etapa 4 — Identificar abrangência
+
+Verificar se o problema está restrito a um usuário ou se afeta várias pessoas.
+
+Essa informação ajuda a diferenciar um problema individual de uma possível indisponibilidade do sistema.
+
+## 7. Comunicação
+
+Durante todo o atendimento, o usuário deve receber informações sobre o andamento da investigação.
+
+Exemplo:
+
+"Vou verificar alguns pontos para identificar se o problema está relacionado ao seu acesso ou ao sistema. Primeiro vamos validar a mensagem apresentada e, em seguida, testar algumas possibilidades."
+
+## 8. Escalonamento
+
+Caso as tentativas iniciais não resolvam o problema, o incidente deve ser encaminhado para o responsável técnico, contendo informações suficientes para facilitar a análise.
+
+### Informações para escalonamento
+
+- Usuário afetado;
+- Sistema;
+- Data e horário;
+- Mensagem de erro;
+- Tentativas realizadas;
+- Evidências disponíveis;
+- Impacto identificado.
+
+## 9. Validação
+
+Após a solução, o atendimento não deve ser encerrado imediatamente.
+
+É importante confirmar com o usuário:
+
+- Se conseguiu acessar o sistema;
+- Se a funcionalidade está funcionando normalmente;
+- Se existe alguma outra dificuldade relacionada ao problema.
+
+## 10. Encerramento
+
+Com a confirmação do usuário, o atendimento pode ser encerrado e documentado.
+
+### Resultado esperado
+
+**Status:** Resolvido
+
+**Resultado:** Usuário voltou a acessar o sistema normalmente.
+
+## 11. O que este case demonstra
+
+Este exercício demonstra competências relacionadas a:
+
+- Atendimento ao usuário;
+- Suporte técnico;
+- Troubleshooting;
+- Investigação de incidentes;
+- Comunicação com clientes;
+- Documentação;
+- Organização de informações;
+- Escalonamento;
+- Customer Success;
+- Foco na resolução.
 
 ---
 
-**Perfil:** Lú Araújo  
-**Área de interesse:** Suporte | Customer Success | Atendimento | Tecnologia
+> **Observação:** Este é um case prático simulado criado para apresentação profissional e não representa um incidente real específico de uma empresa.
