@@ -112,5 +112,5 @@ Este é um case prático simulado, desenvolvido para demonstrar minha abordagem 
 
 ---
 
-**Perfil:** Lúcia Araújo  
+**Perfil:** Lú Araújo  
 **Área de interesse:** Suporte | Customer Success | Atendimento | Tecnologia
